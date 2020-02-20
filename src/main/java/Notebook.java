@@ -2,13 +2,19 @@ public class Notebook {
     int weight;
     int price;
     int year;
+    String weight2;
 
-    public Notebook(int weight, int price, int year) {
+// to jest konstruktor
+
+    public Notebook(int weight, int price, int year, String weight2) {
         this.weight = weight;
         this.price = price;
         this.year = year;
+        this.weight2 = weight2;
 
     }
+
+    //tu tworzymy metodę instrukcję warunkową
 
     public void checkPrice() {
         if (this.price < 600) {
@@ -18,6 +24,11 @@ public class Notebook {
         } else {
             System.out.println("This notebook is expensive");
         }
+    }
+
+//metoda, ktra zwraca wartość weight, ale wyswietli ją gdy ja zapiszemy do zmiennej
+    public String getWeight() {
+        return this.weight2;
     }
 
     public void checkWeight() {
