@@ -10,7 +10,7 @@ public class Car {
         System.out.println("Car constructor");
     }
 
-    public void  turnOnLights() {
+    public void turnOnLights() {
         System.out.println("Lights were turned on");
     }
 
