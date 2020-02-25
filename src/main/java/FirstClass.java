@@ -52,7 +52,7 @@ public class FirstClass {
             System.out.println( "This is a leap year");
         }
         else {
-            System.out.println( " This is not a leap year");
+            System.out.println( "This is not a leap year");
         }
 
         System.out.println(checkLeapYear);
